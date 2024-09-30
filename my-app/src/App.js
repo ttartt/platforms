@@ -45,7 +45,7 @@ function HomePage() {
                         </Grid>
 
                         <Grid item xs={12} md={6}>
-                          <img src="main.png" alt="" className="main-image" />
+                            <img src="main.png" alt="" className="main-image" />
                             <div className="description">
                                 <Typography variant="body1" gutterBottom>
                                     <span style={{ fontWeight: 'bold' }}>
