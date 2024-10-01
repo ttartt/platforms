@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import App from './App'; // Импортируем компонент HomePage
-import Result from './Result'; // Импортируем компонент Result
+import App from './App';
+import Result from './Result';
 
 const AppRouter = () => {
     return (
