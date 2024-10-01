@@ -8,8 +8,10 @@ import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
+import { useNavigate } from "react-router-dom";
 
 function HomePage() {
+    const navigate = useNavigate();
     const [inputValue, setInputValue] = useState('');
     const [startDate, setStartDate] = useState(new Date());
     const [endDate, setEndDate] = useState(new Date());
@@ -19,8 +21,12 @@ function HomePage() {
     };
 
     const handleSubmit = () => {
-        console.log('Отправлено:', inputValue, startDate, endDate);
-    };
+            console.log('Отправлено:', inputValue, startDate, endDate);
+            // Переходим на страницу Result
+            navigate('/result', {
+                state: { inputValue, startDate, endDate } // Передаем данные на страницу результатов
+            });
+        };
 
     const theme = createTheme({
         palette: {
