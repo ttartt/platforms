@@ -1,11 +1,10 @@
 .homepage {
-  padding: 20px;
+
 }
 
 .title {
   font-size: 32px;
   font-weight: bold;
-  text-align: center;
   margin-bottom: 20px;
 }
 
@@ -18,52 +17,56 @@
   margin-right: auto;
 }
 
-
-.description {
-  margin-bottom: 20px;
-  justify-content: center;
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.datePickerInput {
+    border-radius: 0.5rem; /* Закругление углов */
+    background-color: #ffffff; /* Цвет фона */
+    min-width: 100%; /* Минимальная ширина */
+    height: 50px; /* Высота */
+    font-size: 20px; /* Размер шрифта */
+    border: 1px solid #c2c2bf; /* Цвет рамки */
+    justify-content: center;
 }
 
 .input-field {
   margin-bottom: 20px;
 }
 
-.date-pickers {
+/*.date-pickers {
   display: flex;
   gap: 10px;
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
+}*/
+.datePicker {
+  min-width: 46.5%;
+  justify-content: center;
 }
+
 
 .date-separator {
   font-size: 18px;
   color: #333;
-  margin-right: 10px;
 }
 
-.date-picker {
-  width: 180px;
+/*.date-picker {
+  width: 200px;
   height: 40px;
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 5px;
   cursor: pointer;
   background-color: #fff;
-  font-size: 16px;
+  font-size: 20px;
   color: #333;
   transition: all 0.3s ease;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-}
+}*/
 
-.react-datepicker__input-container input {
+/*.react-datepicker__input-container {
   padding: 0;
   background-color: transparent;
   font-size: inherit;
@@ -72,8 +75,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
+}*/
 
 .get-button {
   margin-top: 20px;
 }
+
